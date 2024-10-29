@@ -15,12 +15,12 @@ ODM・OEM 受託型企業で働く全体のスケジュールコントロール�
 
 ## users テーブル
 
-| Column             | Type    | Options     |
-| ------------------ | ------- | ----------- |
-| email              | string  | null: false, unique: true |
-| encrypted_password | string  | null: false |
-| name               | string  | null: false |
-| number             | integer | null: false |
+| Column             | Type    | Options                   | 説明           |
+| ------------------ | ------- | ------------------------- | -------------- |
+| email              | string  | null: false, unique: true | メールアドレス   |
+| encrypted_password | string  | null: false               | パスワード      |
+| name               | string  | null: false               | 名前           |
+| number             | integer | null: false, unique: true | 社員番号        |
 
 上記のユーザーテーブルも追加してください
 
